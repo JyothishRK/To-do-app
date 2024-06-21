@@ -11,8 +11,8 @@ Follow these steps to run the ToDo application on your local machine:
 1. **Clone the repository:**
    
    ```bash
-   git clone https://github.com/your-username/todo-app.git
-   cd todo-app
+   git clone https://github.com/JyothishRK/To-do-app.git
+   cd To-do-app
    ```
 
 2. **Install dependencies:**
@@ -30,7 +30,7 @@ Follow these steps to run the ToDo application on your local machine:
 4. **View the application:**
    
    - Open a web browser and go to `http://localhost:3000`.
-   - You can also specify a different port by setting the `PORT` environment variable before starting the application, e.g., `PORT=8080 node index.js`.
+   - You can also specify a different port by changing the `PORT` variable in the code(index.js) before starting the application.
 
 ## Screenshots
 
@@ -45,14 +45,11 @@ Follow these steps to run the ToDo application on your local machine:
 ## Usage
 
 - **Adding a New Task:**
-  1. Click on the "New Task" button.
-  2. Fill out the task details and click "Save".
-
-- **Marking a Task as Complete:**
-  - Click on the checkbox next to the task to mark it as complete.
+  1. Click on the "New" button.
+  2. Fill out the task details.
 
 - **Deleting a Task:**
-  - Click on the delete icon next to the task to remove it from the list.
+  - Click on the delete icon after entering the task number to remove it from the list.
 
 ## Additional Details
 

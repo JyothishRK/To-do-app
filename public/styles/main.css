@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.center {
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #45a049;
+}
+
+.remove-task-form {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.remove-task-form input[type="number"] {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.btn-remove {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-remove:hover {
+    background-color: #e53935;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tasks {
+    margin-top: 20px;
+}
+
+.tasks h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.task {
+    margin-bottom: 15px;
+}
+
+.task h3 {
+    font-size: 20px;
+}
+
+.task p {
+    font-size: 16px;
+}
+
+.task hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group .btn:hover {
+    background-color: #45a049;
+}

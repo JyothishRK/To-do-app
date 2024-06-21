@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/main.css">
+<title>Todo Application</title>
+</head>
+<body>
+<div class="container">
+    <div class="nav center">
+        <a href="/" class="nav-link">Home Page</a>
+        <a href="/new" class="nav-link">New</a>
+        <form action="/remove" method="POST" class="remove-task-form">
+            <input type="number" name="taskNumber" placeholder="Task No" required>
+            <button type="submit" class="btn-remove">Remove</button>
+        </form>
+    </div>
+    <div class="content center">
+        <h2>Welcome to the Todo Application</h2>
+        <p>This is a simple application to manage your tasks. Use the navigation links above to go to the Home Page or to add a new task.</p>
+    </div>
+    <% if (locals.tasks && locals.tasks.length > 0) { %>
+        <div class="tasks">
+            <h2 class = "center">Existing Tasks</h2>
+            <% tasks.forEach((task, index) => { %>
+                <div class="task">
+                    <h3><%= index + 1 %>. <%= task.title %></h3>
+                    <p><%= task.desc %></p>
+                    <hr>
+                </div>
+            <% }) %>
+        </div>
+    <% } else { %>
+        <p>No tasks available. Please add a new task.</p>
+    <% } %>
+</div>
+</body>
+</html>
+
