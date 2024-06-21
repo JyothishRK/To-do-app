@@ -1,5 +1,3 @@
-
-```markdown
 # ToDo Application
 
 Welcome to the ToDo application! This application helps you manage your tasks effectively.
@@ -60,4 +58,3 @@ Follow these steps to run the ToDo application on your local machine:
 
 - This application uses Node.js and Express for the backend, and it stores tasks in memory (not persistent storage like a database).
 - You can customize the appearance and functionality further by modifying the `index.js` and `views` files as needed.
-```
