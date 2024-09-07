@@ -25,8 +25,8 @@
             <h2 class = "center">Existing Tasks</h2>
             <% tasks.forEach((task, index) => { %>
                 <div class="task">
-                    <h3><%= index + 1 %>. <%= task.title %></h3>
-                    <p><%= task.desc %></p>
+                    <h3><%= task.id %>. <%= task.title %></h3>
+                    <p><%= task.description %></p>
                     <hr>
                 </div>
             <% }) %>
